@@ -50,6 +50,7 @@ public class ApplyForActivity extends AppCompatActivity {
     //高利息与异地贷款显示
     private TextView high_tv,remote_tv;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
