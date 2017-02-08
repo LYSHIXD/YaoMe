@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">YaoMe</string>
+    <string name="login">登录</string>
+    <string name="forgetPsw">忘记密码</string>
+    <string name="findPsw">找回密码</string>
+    <string-array name="yes_no">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+</resources>

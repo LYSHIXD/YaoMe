@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#999"/>
+    <Button
+        android:id="@+id/have_creditCard_bt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="30sp"
+        android:textColor="#212121"
+        android:background="#fff"
+        android:text="有信用卡或贷款，无逾期"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/no_credit_bt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="30sp"
+        android:textColor="#212121"
+        android:background="#fff"
+        android:text="无信用卡或贷款"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/less_three"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="30sp"
+        android:textColor="#212121"
+        android:background="#fff"
+        android:text="一年内逾期少于3次且小于90天"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/more_three"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="30sp"
+        android:textColor="#212121"
+        android:background="#fff"
+        android:text="一年内逾期超过3次且超过90天"
+        android:gravity="center" />
+    </LinearLayout>
