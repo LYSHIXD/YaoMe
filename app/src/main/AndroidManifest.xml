@@ -27,26 +27,33 @@
             android:name=".PersonalInfoActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name=".AssetInfoActivity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
-
-        </activity>
+            android:name=".PersonalAssetInfoActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
             android:name=".ApplyProgressActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".PasswordInputActivity">
-
-        </activity>
         <activity android:name=".TiXianInfoActivity" />
         <activity android:name=".SubmitActivity" />
         <activity android:name=".IdCardInfoActivity" />
-        <activity android:name=".ApplyTiXianActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity
+            android:name=".ApplyTiXianActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".CompanyInfoActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CompanyAssetInfoActivity" />
+        <activity android:name=".CompanyPhotoActivity" />
+        <activity android:name=".HouseInfoActivity" />
+        <activity android:name=".CarInfoActivity" />
+        <activity android:name=".HousePhotoActivity" />
+        <activity android:name=".CarPhotoActivity" />
+        <activity android:name=".SetActivity"></activity>
     </application>
 
 </manifest>

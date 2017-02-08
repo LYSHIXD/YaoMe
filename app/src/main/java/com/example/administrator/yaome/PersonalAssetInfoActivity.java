@@ -1,6 +1,5 @@
 package com.example.administrator.yaome;
 
-import android.app.Activity;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -13,7 +12,7 @@ import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class AssetInfoActivity extends AppCompatActivity implements View.OnClickListener{
+public class PersonalAssetInfoActivity extends AppCompatActivity implements View.OnClickListener{
 
     //点击区域  使用用途、社保、公积金、信用情况
     private RelativeLayout use_rl,social_security_rl,fund_rl,credit_rl;
@@ -31,7 +30,7 @@ public class AssetInfoActivity extends AppCompatActivity implements View.OnClick
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_asset_info);
+        setContentView(R.layout.activity_personal_asset_info);
 
         use_rl=(RelativeLayout)this.findViewById(R.id.use_rl);
         social_security_rl=(RelativeLayout)this.findViewById(R.id.social_security_rl);
@@ -66,7 +65,7 @@ public class AssetInfoActivity extends AppCompatActivity implements View.OnClick
         ColorDrawable mColor=new ColorDrawable(0xffffffff);
         popupWindow.setBackgroundDrawable(mColor);
         //显示位置
-        popupWindow.showAtLocation(getLayoutInflater().inflate(R.layout.activity_asset_info,null), Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL,0,0);
+        popupWindow.showAtLocation(getLayoutInflater().inflate(R.layout.activity_personal_asset_info,null), Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL,0,0);
 
         backgroundAlpha(0.5f);
 
@@ -109,7 +108,7 @@ public class AssetInfoActivity extends AppCompatActivity implements View.OnClick
         ColorDrawable mColor=new ColorDrawable(0xffffffff);
         popupWindow.setBackgroundDrawable(mColor);
         //显示位置
-        popupWindow.showAtLocation(getLayoutInflater().inflate(R.layout.activity_asset_info,null), Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL,0,0);
+        popupWindow.showAtLocation(getLayoutInflater().inflate(R.layout.activity_personal_asset_info,null), Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL,0,0);
 
         backgroundAlpha(0.5f);
 
@@ -139,7 +138,7 @@ public class AssetInfoActivity extends AppCompatActivity implements View.OnClick
         ColorDrawable mColor=new ColorDrawable(0xffffffff);
         popupWindow.setBackgroundDrawable(mColor);
         //显示位置
-        popupWindow.showAtLocation(getLayoutInflater().inflate(R.layout.activity_asset_info,null), Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL,0,0);
+        popupWindow.showAtLocation(getLayoutInflater().inflate(R.layout.activity_personal_asset_info,null), Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL,0,0);
 
         backgroundAlpha(0.5f);
 
