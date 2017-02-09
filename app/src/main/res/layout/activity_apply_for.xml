@@ -11,7 +11,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="@dimen/titleWidgetHeight"
         android:background="#fff">
         <ImageView
             android:id="@+id/back_iv"
@@ -128,7 +128,7 @@
     <LinearLayout
         android:id="@+id/high_ll"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:orientation="horizontal"
         android:background="#fff">
         <TextView
@@ -165,7 +165,7 @@
     <LinearLayout
         android:id="@+id/remote_ll"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:orientation="horizontal"
         android:background="#fff">
         <TextView
@@ -205,7 +205,7 @@
     <Button
         android:id="@+id/next_btn"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="@dimen/buttonHeight"
         android:layout_marginRight="85dp"
         android:layout_marginLeft="85dp"
         android:layout_marginBottom="50dp"

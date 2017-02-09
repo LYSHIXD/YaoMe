@@ -10,7 +10,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="@dimen/titleWidgetHeight"
         android:background="#fff">
         <ImageView
             android:id="@+id/back_iv"
@@ -106,7 +106,7 @@
         android:background="@color/colorLine"/>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
 
         <TextView
@@ -142,7 +142,7 @@
     <RelativeLayout
 
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
 
         <TextView
@@ -181,7 +181,7 @@
     <RelativeLayout
         android:id="@+id/use_rl"
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
 
         <EditText
@@ -224,7 +224,7 @@
     <RelativeLayout
         android:id="@+id/fund_rl"
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
         <TextView
             android:id="@+id/yongtu"
@@ -254,7 +254,7 @@
     <RelativeLayout
 
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
 
         <TextView
@@ -292,7 +292,7 @@
     <RelativeLayout
 
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
 
         <TextView
@@ -330,7 +330,7 @@
         android:background="@color/colorLine"/>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
         <TextView
             android:layout_width="wrap_content"
@@ -359,10 +359,10 @@
     <Button
         android:id="@+id/next_bt"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="@dimen/buttonHeight"
         android:layout_marginRight="85dp"
         android:layout_marginLeft="85dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="30dp"
         android:text="下一步"
         android:textColor="#fff"
         android:textSize="30sp"

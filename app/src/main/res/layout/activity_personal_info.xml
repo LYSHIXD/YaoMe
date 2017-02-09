@@ -10,7 +10,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="@dimen/titleWidgetHeight"
         android:background="#fff">
         <ImageView
             android:id="@+id/back_iv"
@@ -107,7 +107,7 @@
         android:background="@color/colorLine"/>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
         <TextView
             android:id="@+id/name_tv"
@@ -135,7 +135,7 @@
         android:background="@color/colorLine"/>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
         <TextView
             android:layout_width="wrap_content"
@@ -166,7 +166,7 @@
     <RelativeLayout
         android:id="@+id/upload_rl"
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
         <TextView
             android:layout_width="wrap_content"
@@ -198,7 +198,7 @@
         android:background="@color/colorLine"/>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
         <TextView
             android:layout_width="wrap_content"
@@ -227,7 +227,7 @@
     <RelativeLayout
         android:id="@+id/job_rl"
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
         <TextView
             android:layout_width="wrap_content"
@@ -259,7 +259,7 @@
         android:background="@color/colorLine"/>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
         <TextView
             android:layout_width="wrap_content"
@@ -287,7 +287,7 @@
         android:background="@color/colorLine"/>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
         <TextView
             android:layout_width="wrap_content"
@@ -326,10 +326,10 @@
     <Button
         android:id="@+id/next_bt"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="@dimen/buttonHeight"
         android:layout_marginRight="85dp"
         android:layout_marginLeft="85dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:text="下一步"
         android:textColor="#fff"
         android:textSize="30sp"

@@ -9,7 +9,7 @@
     tools:context="com.example.administrator.yaome.IdCardInfoActivity">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="@dimen/titleWidgetHeight"
         android:background="#fff">
         <ImageView
             android:layout_width="@dimen/iconBackWidth"
@@ -81,7 +81,7 @@
     </FrameLayout>
     <Button
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="@dimen/buttonHeight"
         android:layout_marginRight="85dp"
         android:layout_marginLeft="85dp"
         android:layout_marginTop="50dp"

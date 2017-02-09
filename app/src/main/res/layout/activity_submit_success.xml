@@ -14,7 +14,7 @@
     
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="@dimen/titleWidgetHeight"
         android:background="#fff">
         <ImageView
             android:layout_width="@dimen/iconBackWidth"
@@ -53,7 +53,7 @@
         android:layout_weight="1"/>
     <Button
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="@dimen/buttonHeight"
         android:layout_marginRight="85dp"
         android:layout_marginLeft="85dp"
         android:layout_marginBottom="50dp"
