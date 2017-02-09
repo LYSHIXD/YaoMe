@@ -29,7 +29,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -103,41 +103,41 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
-        android:id="@+id/use_rl"
         android:layout_width="match_parent"
         android:layout_height="88dp"
         android:background="#fff">
-
-        <EditText
-
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:layout_centerHorizontal="true"
-            android:textColor="#212121"
-            android:textCursorDrawable="@null"
-            android:background="@null"
-            android:textSize="30sp"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="车辆品牌"
             android:gravity="center"
-            android:textColor="#212121"
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
             android:layout_marginLeft="22dp"
-            android:textSize="30sp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginStart="22dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"
+            android:textCursorDrawable="@null"
+            android:background="@null"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/editText" />
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
 
         android:layout_width="match_parent"
@@ -145,16 +145,15 @@
         android:background="#fff">
 
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_centerHorizontal="true"
             android:text="2017年10月"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <ImageView
-            android:layout_width="30dp"
+            android:layout_width="@dimen/iconDownWidth"
             android:layout_height="match_parent"
             android:src="@mipmap/icon_arrow_down"
             android:layout_alignParentRight="true"
@@ -165,9 +164,9 @@
             android:layout_height="match_parent"
             android:text="购买时间"
             android:gravity="center"
-            android:textColor="#212121"
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
             android:layout_marginLeft="22dp"
-            android:textSize="30sp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -176,7 +175,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
         android:id="@+id/use_rl"
         android:layout_width="match_parent"
@@ -189,28 +188,28 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"
             android:textCursorDrawable="@null"
-            android:background="@null"
-            android:textSize="30sp"/>
+            android:background="@null" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
             android:layout_marginRight="24dp"
-            android:textColor="#212121"
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
             android:gravity="center"
-            android:text="公里"
-            android:textSize="30sp"/>
+            android:text="公里" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="公里数"
             android:gravity="center"
-            android:textColor="#212121"
             android:layout_marginLeft="22dp"
-            android:textSize="30sp"
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -219,7 +218,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
         android:id="@+id/fund_rl"
         android:layout_width="match_parent"
@@ -231,24 +230,24 @@
             android:layout_height="match_parent"
             android:text="车辆所有人"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <EditText
 
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"
             android:textCursorDrawable="@null"
-            android:background="@null"
-            android:textSize="30sp"/>
+            android:background="@null" />
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
 
     <RelativeLayout
 
@@ -262,10 +261,10 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <ImageView
-            android:layout_width="30dp"
+            android:layout_width="@dimen/iconDownWidth"
             android:layout_height="match_parent"
             android:src="@mipmap/icon_arrow_down"
             android:layout_alignParentRight="true"
@@ -276,9 +275,9 @@
             android:layout_height="match_parent"
             android:text="房屋用途"
             android:gravity="center"
-            android:textColor="#212121"
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
             android:layout_marginLeft="22dp"
-            android:textSize="30sp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -287,7 +286,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
 
         android:layout_width="match_parent"
@@ -300,10 +299,10 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <ImageView
-            android:layout_width="30dp"
+            android:layout_width="@dimen/iconDownWidth"
             android:layout_height="match_parent"
             android:src="@mipmap/icon_arrow_down"
             android:layout_alignParentRight="true"
@@ -314,18 +313,19 @@
             android:layout_height="match_parent"
             android:text="抵押方式"
             android:gravity="center"
-            android:textColor="#212121"
             android:layout_marginLeft="22dp"
-            android:textSize="30sp"
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginStart="22dp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="22dp" />
+            android:id="@+id/textView2" />
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="88dp"
@@ -335,11 +335,11 @@
             android:layout_height="match_parent"
             android:text="车辆照片"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <ImageView
-            android:layout_width="20dp"
+            android:layout_width="15dp"
             android:layout_height="match_parent"
             android:src="@mipmap/icon_rignt"
             android:layout_alignParentRight="true"
@@ -349,7 +349,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

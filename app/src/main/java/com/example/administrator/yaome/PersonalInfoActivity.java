@@ -1,5 +1,6 @@
 package com.example.administrator.yaome;
 
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -16,7 +17,7 @@ import android.widget.TextView;
 
 public class PersonalInfoActivity extends AppCompatActivity {
     //返回按钮
-    private ImageView back;
+    private ImageView back_iv;
     //真实姓名
     private EditText name;
     //身份证号码
@@ -31,10 +32,12 @@ public class PersonalInfoActivity extends AppCompatActivity {
     private TextView upLoad;
     //职业角色区域
     private RelativeLayout job_rl;
+    //身份证上传区域
+    private RelativeLayout upload_rl;
     //职业角色
     private TextView job_tv;
     //下一步、上班族、自由职业、按钮
-    private Button next,work_bt,freedom_bt;
+    private Button next_btn,work_bt,freedom_bt;
 
     private PopupWindow popupWindow;
 
@@ -43,7 +46,7 @@ public class PersonalInfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personal_info);
 
-        back=(ImageView)this.findViewById(R.id.back_iv);
+        back_iv=(ImageView)this.findViewById(R.id.back_iv);
         name=(EditText)this.findViewById(R.id.name_et);
         idNum=(EditText)this.findViewById(R.id.idNum_et);
         age=(EditText)this.findViewById(R.id.age_et);
@@ -51,7 +54,8 @@ public class PersonalInfoActivity extends AppCompatActivity {
         massageNum=(EditText)this.findViewById(R.id.massageNum_et);
         upLoad=(TextView) this.findViewById(R.id.upload_tv);
         job_rl=(RelativeLayout) this.findViewById(R.id.job_rl);
-        next=(Button)this.findViewById(R.id.next_bt);
+        upload_rl=(RelativeLayout) this.findViewById(R.id.upload_rl);
+        next_btn=(Button)this.findViewById(R.id.next_bt);
         work_bt=(Button)this.findViewById(R.id.work_bt);
         freedom_bt=(Button)this.findViewById(R.id.freedom_bt);
         job_tv=(TextView)this.findViewById(R.id.job_tv);
@@ -60,14 +64,68 @@ public class PersonalInfoActivity extends AppCompatActivity {
     }
 
     private void initView(){
+        //点击职业角色区域弹出职业选择按钮
         job_rl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 initPopupWindow();
             }
         });
+        //跳转身份证上传界面
+        upload_rl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //跳转到身份证上传界面
+                Intent intent=new Intent(PersonalInfoActivity.this,IdCardInfoActivity.class);
+                startActivity(intent);
+            }
+        });
+        //返回按钮
+        back_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+        //下一步跳转
+        next_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intentView();
+            }
+        });
+
     }
 
+    //跳转信息
+    private void intentView(){
+        Intent lastIntent=getIntent();
+        int tag=lastIntent.getIntExtra("which2",4);
+
+        //个人贷款、企业贷款、房产贷款、车辆贷款的tag分别为 0、1、2、3
+        //通过tag 0、2、3 来选择跳转对应的activity
+        Intent intent;
+        switch (tag){
+            case 0:
+                //跳转到个人资产信息
+                intent=new Intent(this,PersonalAssetInfoActivity.class);
+                startActivity(intent);
+                break;
+            case 2:
+                //跳转到房产信息
+                intent=new Intent(this,HouseInfoActivity.class);
+                startActivity(intent);
+                break;
+            case 3:
+                //跳转到车辆信息
+                intent=new Intent(this,CarInfoActivity.class);
+                startActivity(intent);
+                break;
+        }
+    }
+
+
+    //职业选择弹窗
     private void initPopupWindow(){
         View popupWindowView=this.getLayoutInflater().inflate(R.layout.popupwindow_job,null);
         popupWindow=new PopupWindow(popupWindowView, ActionBar.LayoutParams.MATCH_PARENT, ActionBar.LayoutParams.WRAP_CONTENT,true);
@@ -114,7 +172,13 @@ public class PersonalInfoActivity extends AppCompatActivity {
         lp.alpha=bgAlpha;
         getWindow().setAttributes(lp);
     }
-    }
+
+
+
+
+
+
+}
 
 
 

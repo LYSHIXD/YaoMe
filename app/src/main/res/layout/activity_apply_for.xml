@@ -14,7 +14,8 @@
         android:layout_height="70dp"
         android:background="#fff">
         <ImageView
-            android:layout_width="25dp"
+            android:id="@+id/back_iv"
+            android:layout_width="30dp"
             android:layout_height="match_parent"
             android:src="@mipmap/ic_arrow_back"
             android:layout_marginLeft="24dp"/>
@@ -22,14 +23,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="贷款申请"
-            android:textSize="30sp"
-            android:textColor="#212121"
+            android:textSize="@dimen/titleSize"
+            android:textColor="@color/colorTitle"
             android:layout_centerInParent="true" />
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="#ccc" />
+        android:background="@color/colorLine" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="500dp"
@@ -118,10 +119,10 @@
         </LinearLayout>
     </LinearLayout>
 
-    <TextView
+    <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"
+        android:background="@color/colorLine"
         android:layout_marginTop="20dp"/>
 
     <LinearLayout
@@ -133,9 +134,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textSize="25sp"
             android:gravity="center"
-            android:textColor="#212121"
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
             android:text="是否接受高利息"
             android:layout_marginLeft="24dp"/>
         <View
@@ -146,8 +147,8 @@
             android:id="@+id/high_tv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textSize="25sp"
-            android:textColor="#212121"
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"
             android:gravity="center"
             android:layout_marginRight="50dp"/>
         <ImageView
@@ -160,7 +161,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <LinearLayout
         android:id="@+id/remote_ll"
         android:layout_width="match_parent"
@@ -172,7 +173,7 @@
             android:layout_height="match_parent"
             android:textSize="25sp"
             android:gravity="center"
-            android:textColor="#212121"
+            android:textColor="@color/colorStairItem"
             android:text="是否接受异地借款"
             android:layout_marginLeft="24dp"/>
         <View
@@ -183,8 +184,8 @@
             android:id="@+id/remote_tv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textSize="25sp"
-            android:textColor="#212121"
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"
             android:gravity="center"
             android:layout_marginRight="50dp"/>
         <ImageView
@@ -196,12 +197,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"/>
     <Button
+        android:id="@+id/next_btn"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginRight="85dp"

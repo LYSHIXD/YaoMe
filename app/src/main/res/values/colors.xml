@@ -9,4 +9,11 @@
     <color name="saffronYellow">#FF7043</color>
     <color name="yellowText">#FD3D09</color>
     <color name="blackText">#212121</color>
+
+    <color name="colorTitle">#212121</color>
+    <color name="colorStairItem">#212121</color>
+    <color name="colorSecondItem">#555</color>
+
+    <color name="colorLine">#ccc</color>
+
 </resources>

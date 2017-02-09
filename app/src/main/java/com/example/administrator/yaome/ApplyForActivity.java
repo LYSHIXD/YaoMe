@@ -1,5 +1,6 @@
 package com.example.administrator.yaome;
 
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBar;
@@ -12,6 +13,7 @@ import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.Spinner;
@@ -22,9 +24,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ApplyForActivity extends AppCompatActivity {
-
-    private Spinner spinner_remote;
-    private Spinner spinner_high;
+    //返回图标
+    private ImageView back_iv;
+    //下一步按钮
+    private Button next_btn;
     //选择金额区域
     private LinearLayout apply_count;
     //选择时间区域
@@ -68,11 +71,49 @@ public class ApplyForActivity extends AppCompatActivity {
         high_tv=(TextView)this.findViewById(R.id.high_tv);
         remote_tv=(TextView)this.findViewById(R.id.remote_tv);
 
+        back_iv=(ImageView)this.findViewById(R.id.back_iv);
+        next_btn=(Button)this.findViewById(R.id.next_btn);
 
         initView();
 
 
 
+    }
+
+    //个人贷款、企业贷款、房产贷款、车辆贷款的tag分别为 0、1、2、3
+    //如果没接收到 tag为4
+    private void intentView(){
+
+        Intent lastIntent=getIntent();
+        int tag=lastIntent.getIntExtra("which",4);
+
+        //通过tag 0、1、2、3 来选择跳转对应的activity
+        Intent intent;
+        switch (tag){
+            case 0:
+                //跳转到基本信息
+                intent=new Intent(this,PersonalInfoActivity.class);
+                intent.putExtra("which2",0);
+                startActivity(intent);
+                break;
+            case 1:
+                //跳转到企业信息
+                intent=new Intent(this,CompanyInfoActivity.class);
+                startActivity(intent);
+                break;
+            case 2:
+                //跳转到基本信息
+                intent=new Intent(this,PersonalInfoActivity.class);
+                intent.putExtra("which2",2);
+                startActivity(intent);
+                break;
+            case 3:
+                //跳转到基本信息
+                intent=new Intent(this,PersonalInfoActivity.class);
+                intent.putExtra("which2",3);
+                startActivity(intent);
+                break;
+        }
     }
 
     private void initView(){
@@ -102,6 +143,21 @@ public class ApplyForActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 initPopuWindowsRemote();
+            }
+        });
+
+        //下一步按钮
+        next_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intentView();
+            }
+        });
+        //返回按钮
+        back_iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
             }
         });
 
@@ -332,11 +388,6 @@ public class ApplyForActivity extends AppCompatActivity {
         lp.alpha=bgAlpha;
         getWindow().setAttributes(lp);
     }
-
-
-
-
-
 
 
 //    private void spinnerView(){

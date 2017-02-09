@@ -20,7 +20,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#999"/>
+        android:background="@color/colorLine"/>
     <Button
         android:id="@+id/old_car_bt"
         android:layout_width="match_parent"
@@ -33,7 +33,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#999"/>
+        android:background="@color/colorLine"/>
     <Button
         android:id="@+id/new_house_first_pay_bt"
         android:layout_width="match_parent"
@@ -46,7 +46,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#999"/>
+        android:background="@color/colorLine"/>
     <Button
         android:id="@+id/new_house_bt"
         android:layout_width="match_parent"
@@ -59,7 +59,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#999"/>
+        android:background="@color/colorLine"/>
     <Button
         android:id="@+id/old_house_bt"
         android:layout_width="match_parent"
@@ -72,7 +72,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#999"/>
+        android:background="@color/colorLine"/>
     <Button
         android:id="@+id/guo_qiao_bt"
         android:layout_width="match_parent"
@@ -85,7 +85,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#999"/>
+        android:background="@color/colorLine"/>
     <Button
         android:id="@+id/zhuang_xiu_bt"
         android:layout_width="match_parent"
@@ -98,7 +98,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#999"/>
+        android:background="@color/colorLine"/>
     <Button
         android:id="@+id/education_bt"
         android:layout_width="match_parent"
@@ -111,7 +111,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#999"/>
+        android:background="@color/colorLine"/>
     <Button
         android:id="@+id/travel_bt"
         android:layout_width="match_parent"
@@ -124,7 +124,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#999"/>
+        android:background="@color/colorLine"/>
     <Button
         android:id="@+id/stock_bt"
         android:layout_width="match_parent"
@@ -137,5 +137,5 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#999"/>
+        android:background="@color/colorLine"/>
     </LinearLayout>

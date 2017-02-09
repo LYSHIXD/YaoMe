@@ -29,7 +29,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -103,7 +103,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
         android:id="@+id/use_rl"
         android:layout_width="match_parent"
@@ -136,7 +136,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
         android:id="@+id/social_security_rl"
         android:layout_width="match_parent"
@@ -169,7 +169,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
         android:id="@+id/fund_rl"
         android:layout_width="match_parent"
@@ -202,7 +202,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
         android:id="@+id/credit_rl"
         android:layout_width="match_parent"
@@ -235,7 +235,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

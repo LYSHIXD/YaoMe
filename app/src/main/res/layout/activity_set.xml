@@ -26,11 +26,11 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="#ccc"
+        android:background="@color/colorLine"
         android:layout_marginTop="20dp"/>
 
     <RelativeLayout
@@ -61,7 +61,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
 
         android:layout_width="match_parent"
@@ -80,7 +80,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"
+        android:background="@color/colorLine"
         android:layout_marginTop="20dp"/>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -104,11 +104,11 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"
+        android:background="@color/colorLine"
         android:layout_marginTop="20dp"/>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -132,7 +132,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"
+        android:background="@color/colorLine"
         android:layout_marginTop="20dp"/>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -156,7 +156,11 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"
+        android:background="@color/colorLine" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLine"
         android:layout_marginTop="20dp"/>
     <RelativeLayout
         android:layout_width="match_parent"

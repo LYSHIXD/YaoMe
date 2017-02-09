@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:background="#eee"
     tools:context="com.example.administrator.yaome.PersonalInfoActivity">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
@@ -25,10 +26,11 @@
             android:textColor="#212121"
             android:layout_centerInParent="true" />
     </RelativeLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -102,7 +104,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="88dp"
@@ -130,7 +132,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="88dp"
@@ -160,8 +162,9 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
+        android:id="@+id/upload_rl"
         android:layout_width="match_parent"
         android:layout_height="88dp"
         android:background="#fff">
@@ -192,7 +195,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="88dp"
@@ -220,7 +223,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
         android:id="@+id/job_rl"
         android:layout_width="match_parent"
@@ -253,7 +256,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="88dp"
@@ -281,7 +284,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="88dp"
@@ -319,7 +322,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#ccc"/>
+        android:background="@color/colorLine"/>
     <Button
         android:id="@+id/next_bt"
         android:layout_width="match_parent"
