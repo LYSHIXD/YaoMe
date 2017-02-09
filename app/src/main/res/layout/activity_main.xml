@@ -30,7 +30,7 @@
             android:layout_centerVertical="true"/>
         <ImageView
             android:id="@+id/arrow_down"
-            android:layout_width="30dp"
+            android:layout_width="25dp"
             android:layout_height="15dp"
             android:layout_marginRight="24dp"
             android:layout_alignParentRight="true"
@@ -42,6 +42,7 @@
             android:layout_toLeftOf="@+id/arrow_down"
             android:layout_centerVertical="true"
             android:text="菏泽"
+            android:layout_marginRight="10dp"
             android:textColor="#000"
             android:textSize="25sp"
             />
@@ -60,7 +61,7 @@
             android:orientation="vertical">
             <View
                 android:layout_width="match_parent"
-                android:layout_height="350dp"
+                android:layout_height="300dp"
                 android:background="#000"/>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -75,8 +76,8 @@
                     android:layout_weight="1">
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:src="@mipmap/btn_personal"
                         android:layout_marginTop="30dp"
                         />
@@ -84,7 +85,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="个人贷款"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textColor="#212121"
                         android:layout_marginTop="18dp"
                         android:layout_gravity="center"/>
@@ -97,8 +98,8 @@
                     android:gravity="center"
                     android:layout_weight="1">
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:src="@mipmap/btn_company"
                         android:layout_marginTop="30dp"
                         />
@@ -106,7 +107,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="企业贷款"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textColor="#212121"
                         android:layout_marginTop="18dp"
                         android:layout_gravity="center"/>
@@ -119,8 +120,8 @@
                     android:gravity="center"
                     android:layout_weight="1">
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:src="@mipmap/btn_house"
                         android:layout_marginTop="30dp"
                         />
@@ -128,7 +129,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="房产抵押"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textColor="#212121"
                         android:layout_marginTop="18dp"
                         android:layout_gravity="center"/>
@@ -141,8 +142,8 @@
                     android:gravity="center"
                     android:layout_weight="1">
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
                         android:src="@mipmap/btn_car"
                         android:layout_marginTop="30dp"
                         />
@@ -150,7 +151,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="车辆抵押"
-                        android:textSize="30sp"
+                        android:textSize="25sp"
                         android:textColor="#212121"
                         android:layout_marginTop="18dp"
                         android:layout_gravity="center"/>
@@ -160,7 +161,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:orientation="horizontal"
-                android:layout_marginTop="62dp">
+                android:layout_marginTop="30dp">
                 <View
                     android:layout_width="270dp"
                     android:layout_height="1dp"
@@ -187,25 +188,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginTop="52dp">
+                android:layout_marginTop="30dp">
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_weight="1"
                     android:src="@mipmap/btn_house_count"/>
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_weight="1"
                     android:src="@mipmap/btn_car_count"/>
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_weight="1"
                     android:src="@mipmap/btn_repayment_count"/>
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_weight="1"
                     android:src="@mipmap/btn_pay_count"/>
             </LinearLayout>
@@ -213,7 +214,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:orientation="horizontal"
-                android:layout_marginTop="78dp">
+                android:layout_marginTop="30dp">
                 <View
                     android:layout_width="270dp"
                     android:layout_height="1dp"
