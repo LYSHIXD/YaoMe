@@ -12,7 +12,7 @@
         android:layout_height="70dp"
         android:background="#fff">
         <ImageView
-            android:layout_width="25dp"
+            android:layout_width="@dimen/iconBackWidth"
             android:layout_height="match_parent"
             android:src="@mipmap/ic_arrow_back"
             android:layout_marginLeft="24dp"/>
@@ -20,8 +20,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="身份证照片"
-            android:textSize="30sp"
-            android:textColor="#212121"
+            android:textSize="@dimen/titleSize"
+            android:textColor="@color/colorTitle"
             android:layout_centerInParent="true" />
     </RelativeLayout>
     <View

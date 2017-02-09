@@ -41,7 +41,7 @@
                 android:textColor="#999"/>
         </LinearLayout>
         <ImageView
-            android:layout_width="20dp"
+            android:layout_width="@dimen/iconRightWidth"
             android:layout_height="match_parent"
             android:src="@mipmap/icon_rignt"
             android:layout_marginRight="24dp"/>
