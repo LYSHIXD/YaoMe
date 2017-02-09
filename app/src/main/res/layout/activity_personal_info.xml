@@ -115,19 +115,19 @@
             android:layout_height="match_parent"
             android:text="真实姓名"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <EditText
             android:id="@+id/name_et"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"
             android:gravity="center"
             android:textCursorDrawable="@null"
-            android:background="@null"
-            android:textSize="30sp"/>
+            android:background="@null" />
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
@@ -142,16 +142,16 @@
             android:layout_height="match_parent"
             android:text="身份证号"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
 
         <EditText
             android:id="@+id/idNum_et"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:textColor="#212121"
-            android:textSize="30sp"
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"
             android:inputType="number"
             android:gravity="center"
             android:textCursorDrawable="@null"
@@ -173,9 +173,9 @@
             android:layout_height="match_parent"
             android:text="身份证照片"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <TextView
             android:id="@+id/upload_tv"
             android:layout_width="wrap_content"
@@ -183,8 +183,8 @@
             android:text="未上传"
             android:gravity="center"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <ImageView
             android:layout_width="@dimen/iconRightWidth"
             android:layout_height="match_parent"
@@ -205,20 +205,20 @@
             android:layout_height="match_parent"
             android:text="当前年龄"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <EditText
             android:id="@+id/age_et"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"
             android:inputType="number"
             android:gravity="center"
             android:textCursorDrawable="@null"
-            android:background="@null"
-            android:textSize="30sp"/>
+            android:background="@null" />
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
@@ -234,18 +234,18 @@
             android:layout_height="match_parent"
             android:text="职业角色"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <TextView
             android:id="@+id/job_tv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
             android:text="当前职业"
             android:gravity="center"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <ImageView
             android:layout_width="@dimen/iconDownWidth"
             android:layout_height="match_parent"
@@ -266,20 +266,20 @@
             android:layout_height="match_parent"
             android:text="手机号码"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <EditText
             android:id="@+id/phoneNum_et"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
             android:inputType="number"
             android:gravity="center"
             android:textCursorDrawable="@null"
             android:background="@null"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
@@ -294,20 +294,20 @@
             android:layout_height="match_parent"
             android:text="短信验证码"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <EditText
             android:id="@+id/massageNum_et"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
             android:inputType="number"
             android:gravity="center"
             android:textCursorDrawable="@null"
             android:background="@null"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <Button
             android:layout_width="130dp"
             android:layout_height="50dp"

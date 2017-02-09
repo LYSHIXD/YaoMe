@@ -114,9 +114,9 @@
             android:layout_height="match_parent"
             android:text="借款用途"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <TextView
             android:id="@+id/use_tv"
             android:layout_width="wrap_content"
@@ -124,8 +124,8 @@
             android:gravity="center"
             android:layout_alignParentRight="true"
             android:layout_marginRight="90dp"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <ImageView
             android:layout_width="@dimen/iconDownWidth"
             android:layout_height="match_parent"
@@ -147,9 +147,9 @@
             android:layout_height="match_parent"
             android:text="是否有本地社保"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <TextView
             android:id="@+id/social_security_tv"
             android:layout_width="wrap_content"
@@ -157,8 +157,8 @@
             android:gravity="center"
             android:layout_alignParentRight="true"
             android:layout_marginRight="90dp"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <ImageView
             android:layout_width="@dimen/iconDownWidth"
             android:layout_height="match_parent"
@@ -180,9 +180,9 @@
             android:layout_height="match_parent"
             android:text="是否有本地公积金"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <TextView
             android:id="@+id/fund_tv"
             android:layout_width="wrap_content"
@@ -190,8 +190,8 @@
             android:gravity="center"
             android:layout_alignParentRight="true"
             android:layout_marginRight="90dp"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <ImageView
             android:layout_width="@dimen/iconDownWidth"
             android:layout_height="match_parent"
@@ -213,9 +213,9 @@
             android:layout_height="match_parent"
             android:text="信用用情况"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <TextView
             android:id="@+id/credit_tv"
             android:layout_width="wrap_content"
@@ -223,8 +223,8 @@
             android:gravity="center"
             android:layout_alignParentRight="true"
             android:layout_marginRight="90dp"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <ImageView
             android:layout_width="@dimen/iconDownWidth"
             android:layout_height="match_parent"

@@ -47,7 +47,7 @@
             android:textSize="30sp"
             android:textColor="#212121"
             android:layout_gravity="center"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="80dp"
             android:text="房屋外观"/>
         <ImageView
             android:layout_width="match_parent"
@@ -72,7 +72,7 @@
             android:textSize="30sp"
             android:textColor="#212121"
             android:layout_gravity="center"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="80dp"
             android:text="房屋内饰"/>
         <ImageView
             android:layout_width="match_parent"

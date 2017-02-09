@@ -7,7 +7,7 @@
     <dimen name="stairItemSize">25sp</dimen>
     <dimen name="secondLevleItemSize">25sp</dimen>
 
-    <dimen name="iconRightWidth">15sp</dimen>
-    <dimen name="iconDownWidth">25sp</dimen>
-    <dimen name="iconBackWidth">25sp</dimen>
+    <dimen name="iconRightWidth">15dp</dimen>
+    <dimen name="iconDownWidth">25dp</dimen>
+    <dimen name="iconBackWidth">25dp</dimen>
 </resources>

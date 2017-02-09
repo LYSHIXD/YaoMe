@@ -116,8 +116,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <ImageView
             android:layout_width="@dimen/iconDownWidth"
             android:layout_height="match_parent"
@@ -130,9 +130,9 @@
             android:layout_height="match_parent"
             android:text="企业类型"
             android:gravity="center"
-            android:textColor="#212121"
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
             android:layout_marginLeft="22dp"
-            android:textSize="30sp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -154,17 +154,17 @@
             android:layout_height="match_parent"
             android:text="企业规模"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <TextView
             android:id="@+id/social_security_tv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <ImageView
             android:layout_width="@dimen/iconDownWidth"
             android:layout_height="match_parent"
@@ -187,9 +187,9 @@
             android:layout_height="match_parent"
             android:text="企业总价值"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <TextView
             android:id="@+id/fund_tv"
             android:layout_width="wrap_content"
@@ -205,8 +205,8 @@
             android:layout_marginRight="24dp"
             android:text="万元"
             android:gravity="center"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"/>
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
@@ -222,17 +222,17 @@
             android:layout_height="match_parent"
             android:text="年收入"
             android:gravity="center"
-            android:textColor="#212121"
-            android:layout_marginLeft="24dp"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:layout_marginLeft="24dp" />
         <TextView
             android:id="@+id/credit_tv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -240,8 +240,8 @@
             android:layout_marginRight="24dp"
             android:text="万元"
             android:gravity="center"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"/>
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
@@ -259,8 +259,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <ImageView
             android:layout_width="@dimen/iconDownWidth"
             android:layout_height="match_parent"
@@ -273,9 +273,9 @@
             android:layout_height="match_parent"
             android:text="企业债务信息"
             android:gravity="center"
-            android:textColor="#212121"
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
             android:layout_marginLeft="22dp"
-            android:textSize="30sp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -297,8 +297,8 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"/>
         <ImageView
             android:layout_width="@dimen/iconDownWidth"
             android:layout_height="match_parent"
@@ -311,9 +311,9 @@
             android:layout_height="match_parent"
             android:text="企业经营时长"
             android:gravity="center"
-            android:textColor="#212121"
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
             android:layout_marginLeft="22dp"
-            android:textSize="30sp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"

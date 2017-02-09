@@ -41,8 +41,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="手机号 ："
-            android:textSize="25sp"
-            android:textColor="#212121"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"/>
         <TextView
             android:id="@+id/phoneNum_tv"
             android:layout_width="wrap_content"
@@ -61,9 +61,9 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:text="验证码"
-        android:textSize="25sp"
         android:gravity="center"
-        android:textColor="#212121"/>
+        android:textSize="@dimen/stairItemSize"
+        android:textColor="@color/colorStairItem"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="88dp"
@@ -76,9 +76,9 @@
             android:layout_height="match_parent"
             android:hint="请输入验证码"
             android:layout_marginLeft="10dp"
-            android:textSize="25sp"
             android:background="@null"
-            android:textColor="#212121"
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"
             android:inputType="number"
             android:textCursorDrawable="@null"
             android:layout_weight="1"/>
@@ -103,9 +103,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="新密码"
-            android:textSize="25sp"
-            android:gravity="center"
-            android:textColor="#212121"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:gravity="center" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="88dp"
@@ -122,10 +122,9 @@
                 android:inputType="textPassword"
                 android:textCursorDrawable="@null"
                 android:layout_marginLeft="10dp"
-                android:textSize="25sp"
-                android:layout_weight="1"
-                android:textColor="#212121"
-                 />
+                android:textSize="@dimen/secondLevleItemSize"
+                android:textColor="@color/colorSecondItem"
+                android:layout_weight="1" />
             <ImageView
                 android:id="@+id/new_psw_iv"
                 android:layout_width="40dp"
@@ -145,9 +144,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="新密码"
-            android:textSize="25sp"
-            android:gravity="center"
-            android:textColor="#212121"/>
+            android:textSize="@dimen/stairItemSize"
+            android:textColor="@color/colorStairItem"
+            android:gravity="center" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="88dp"
@@ -163,8 +162,8 @@
                 android:inputType="textPassword"
                 android:textCursorDrawable="@null"
                 android:layout_marginLeft="10dp"
-                android:textSize="25sp"
-                android:textColor="#212121"
+                android:textSize="@dimen/secondLevleItemSize"
+                android:textColor="@color/colorSecondItem"
                 android:layout_weight="1"/>
             <ImageView
                 android:id="@+id/new_again_psw_iv"

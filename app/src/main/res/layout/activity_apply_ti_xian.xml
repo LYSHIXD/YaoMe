@@ -58,8 +58,8 @@
             android:textCursorDrawable="@null"
             android:background="@null"
             android:gravity="center"
-            android:textSize="@dimen/stairItemSize"
-            android:textColor="@color/colorStairItem"
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"
             android:layout_marginRight="24dp"/>
     </LinearLayout>
     <View
@@ -90,8 +90,8 @@
             android:background="@null"
             android:gravity="center"
             android:textColorHint="#999"
-            android:textSize="@dimen/stairItemSize"
-            android:textColor="@color/colorStairItem"
+            android:textSize="@dimen/secondLevleItemSize"
+            android:textColor="@color/colorSecondItem"
             android:layout_marginRight="24dp"/>
     </LinearLayout>
     <View
