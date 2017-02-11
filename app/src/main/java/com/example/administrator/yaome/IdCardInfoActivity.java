@@ -8,6 +8,6 @@ public class IdCardInfoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_id_card_info);
+        setContentView(R.layout.activity_id_card_photo);
     }
 }

@@ -120,7 +120,7 @@
             android:layout_marginLeft="24dp" />
         <EditText
             android:id="@+id/name_et"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
             android:textSize="@dimen/secondLevleItemSize"
@@ -148,7 +148,7 @@
 
         <EditText
             android:id="@+id/idNum_et"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="@dimen/secondLevleItemSize"
             android:textColor="@color/colorSecondItem"
@@ -210,7 +210,7 @@
             android:layout_marginLeft="24dp" />
         <EditText
             android:id="@+id/age_et"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
             android:textSize="@dimen/secondLevleItemSize"
@@ -299,7 +299,7 @@
             android:layout_marginLeft="24dp" />
         <EditText
             android:id="@+id/massageNum_et"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerHorizontal="true"
             android:inputType="number"

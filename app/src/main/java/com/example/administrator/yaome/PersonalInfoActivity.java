@@ -8,12 +8,16 @@ import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.example.administrator.yaome.adapter.PopupwindowAdapter;
 
 public class PersonalInfoActivity extends AppCompatActivity {
     //返回按钮
@@ -37,14 +41,14 @@ public class PersonalInfoActivity extends AppCompatActivity {
     //职业角色
     private TextView job_tv;
     //下一步、上班族、自由职业、按钮
-    private Button next_btn,work_bt,freedom_bt;
+    private Button next_btn;
 
     private PopupWindow popupWindow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_personal_info);
+        setContentView(R.layout.activity_personal_base_info);
 
         back_iv=(ImageView)this.findViewById(R.id.back_iv);
         name=(EditText)this.findViewById(R.id.name_et);
@@ -56,8 +60,6 @@ public class PersonalInfoActivity extends AppCompatActivity {
         job_rl=(RelativeLayout) this.findViewById(R.id.job_rl);
         upload_rl=(RelativeLayout) this.findViewById(R.id.upload_rl);
         next_btn=(Button)this.findViewById(R.id.next_bt);
-        work_bt=(Button)this.findViewById(R.id.work_bt);
-        freedom_bt=(Button)this.findViewById(R.id.freedom_bt);
         job_tv=(TextView)this.findViewById(R.id.job_tv);
 
         initView();
@@ -123,18 +125,19 @@ public class PersonalInfoActivity extends AppCompatActivity {
                 break;
         }
     }
-
+    private ListView listView;
+    private String [] strings;
 
     //职业选择弹窗
     private void initPopupWindow(){
-        View popupWindowView=this.getLayoutInflater().inflate(R.layout.popupwindow_job,null);
+        final View popupWindowView=this.getLayoutInflater().inflate(R.layout.popupwindow_listview,null);
         popupWindow=new PopupWindow(popupWindowView, ActionBar.LayoutParams.MATCH_PARENT, ActionBar.LayoutParams.WRAP_CONTENT,true);
         //菜单背景
         ColorDrawable color=new ColorDrawable(0xffffffff);
         popupWindow.setBackgroundDrawable(color);
 
         //显示位置
-        popupWindow.showAtLocation(getLayoutInflater().inflate(R.layout.activity_personal_info,null), Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL,0,0);
+        popupWindow.showAtLocation(getLayoutInflater().inflate(R.layout.activity_personal_base_info,null), Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL,0,0);
 
         backgroundAlpha(0.5f);
 
@@ -146,23 +149,20 @@ public class PersonalInfoActivity extends AppCompatActivity {
             }
         });
 
-        //是与否按钮
-        work_bt=(Button)popupWindowView.findViewById(R.id.work_bt);
-        freedom_bt=(Button)popupWindowView.findViewById(R.id.freedom_bt);
-        work_bt.setOnClickListener(new View.OnClickListener() {
+        listView=(ListView)popupWindowView.findViewById(R.id.listview);
+        strings=getResources().getStringArray(R.array.personalJob);
+        PopupwindowAdapter adapter=new PopupwindowAdapter(this,strings);
+        listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onClick(View v) {
-                job_tv.setText("上班族");
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                job_tv.setText(strings[i]);
+
                 popupWindow.dismiss();
             }
         });
-        freedom_bt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                job_tv.setText("自由职业");
-                popupWindow.dismiss();
-            }
-        });
+
     }
 
 

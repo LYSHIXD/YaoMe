@@ -7,4 +7,76 @@
         <item>是</item>
         <item>否</item>
     </string-array>
+
+    <!--企业状态-->
+    <string-array name="companyNow">
+    <item>在业</item>
+    <item>存续</item>
+    <item>吊销</item>
+    <item>注销</item>
+    </string-array>
+
+
+    <!--信用情况-->
+    <string-array name="creditInfo">
+        <item>有信用卡或贷款，无逾期</item>
+        <item>无信用卡或贷款</item>
+        <item>一年内逾期少于3次且小于90天</item>
+        <item>一年内逾期超过3次且超过90天</item>
+    </string-array>
+
+    <!--借款用途-->
+    <string-array name="moneyUsage">
+        <item>新车购买贷款</item>
+        <item>二手车购买贷款</item>
+        <item>新房首付贷款</item>
+        <item>新房购房贷款</item>
+        <item>二手房购房贷款</item>
+        <item>过桥短期贷款</item>
+        <item>装修贷款</item>
+        <item>教育培训贷款</item>
+        <item>旅游贷款</item>
+        <item>股票配资贷款</item>
+    </string-array>
+
+    <!--个人职业信息-->
+    <string-array name="personalJob">
+        <item>上班族</item>
+        <item>自由职业</item>
+    </string-array>
+
+    <!--企业债务信息-->
+    <string-array name="companyDebt">
+        <item>有</item>
+        <item>无</item>
+    </string-array>
+
+    <!--企业规模-->
+    <string-array name="companySize">
+        <item>0~20人</item>
+        <item>20~50人</item>
+        <item>50~100人</item>
+        <item>100人以上</item>
+    </string-array>
+
+    <!--企业经营时长-->
+    <string-array name="companyDiration">
+        <item>1年以下</item>
+        <item>1~2年</item>
+        <item>2~5年</item>
+        <item>5~10年</item>
+        <item>10年以上</item>
+    </string-array>
+
+    <!--企业类型-->
+    <string-array name="companyType">
+        <item>国有企业</item>
+        <item>集体企业</item>
+        <item>股份合作企业</item>
+        <item>联营企业</item>
+        <item>有限责任公司</item>
+        <item>股份有限公司</item>
+        <item>私营企业</item>
+        <item>其他企业</item>
+    </string-array>
 </resources>

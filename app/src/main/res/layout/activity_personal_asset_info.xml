@@ -241,7 +241,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"/>
     <Button
-        android:id="@+id/next_bt"
+        android:id="@+id/next_btn"
         android:layout_width="match_parent"
         android:layout_height="@dimen/buttonHeight"
         android:layout_marginRight="85dp"

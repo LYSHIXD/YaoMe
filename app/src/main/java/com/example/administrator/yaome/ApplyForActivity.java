@@ -2,23 +2,17 @@ package com.example.administrator.yaome;
 
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBar;
 import   android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
-import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -305,7 +299,7 @@ public class ApplyForActivity extends AppCompatActivity {
     }
     //高利息窗口
     private void initPopuWindowsHigh(){
-        View popupWindowView=this.getLayoutInflater().inflate(R.layout.popupwindow_remote_high,null);
+        View popupWindowView=this.getLayoutInflater().inflate(R.layout.popupwindow_yes_or_no,null);
         popupWindow=new PopupWindow(popupWindowView, ActionBar.LayoutParams.MATCH_PARENT, ActionBar.LayoutParams.WRAP_CONTENT,true);
         //菜单背景
         ColorDrawable color=new ColorDrawable(0xffffffff);
@@ -344,7 +338,7 @@ public class ApplyForActivity extends AppCompatActivity {
     }
     //异地贷款窗口
     private void initPopuWindowsRemote(){
-        View popupWindowView=this.getLayoutInflater().inflate(R.layout.popupwindow_remote_high,null);
+        View popupWindowView=this.getLayoutInflater().inflate(R.layout.popupwindow_yes_or_no,null);
         popupWindow=new PopupWindow(popupWindowView, ActionBar.LayoutParams.MATCH_PARENT, ActionBar.LayoutParams.WRAP_CONTENT,true);
         //菜单背景
         ColorDrawable color=new ColorDrawable(0xffffffff);

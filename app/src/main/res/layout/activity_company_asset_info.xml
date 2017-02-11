@@ -105,13 +105,13 @@
         android:layout_height="1dp"
         android:background="@color/colorLine"/>
     <RelativeLayout
-        android:id="@+id/use_rl"
+        android:id="@+id/company_type_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
 
         <TextView
-            android:id="@+id/use_tv"
+            android:id="@+id/company_type_tv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -145,7 +145,7 @@
         android:background="@color/colorLine"/>
 
     <RelativeLayout
-        android:id="@+id/social_security_rl"
+        android:id="@+id/company_size_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
@@ -158,7 +158,7 @@
             android:textColor="@color/colorStairItem"
             android:layout_marginLeft="24dp" />
         <TextView
-            android:id="@+id/social_security_tv"
+            android:id="@+id/company_size_tv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -178,7 +178,7 @@
         android:layout_height="1dp"
         android:background="@color/colorLine"/>
     <RelativeLayout
-        android:id="@+id/fund_rl"
+        android:id="@+id/company_value_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
@@ -190,14 +190,16 @@
             android:textSize="@dimen/stairItemSize"
             android:textColor="@color/colorStairItem"
             android:layout_marginLeft="24dp" />
-        <TextView
-            android:id="@+id/fund_tv"
+        <EditText
+            android:id="@+id/company_value_et"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
+            android:textCursorDrawable="@null"
+            android:background="@null"
             android:layout_centerHorizontal="true"
-            android:textColor="#212121"
-            android:textSize="30sp"/>
+            android:textColor="@color/colorSecondItem"
+            android:textSize="@dimen/secondLevleItemSize"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -213,7 +215,7 @@
         android:layout_height="1dp"
         android:background="@color/colorLine"/>
     <RelativeLayout
-        android:id="@+id/credit_rl"
+        android:id="@+id/company_income_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
@@ -225,11 +227,13 @@
             android:textSize="@dimen/stairItemSize"
             android:textColor="@color/colorStairItem"
             android:layout_marginLeft="24dp" />
-        <TextView
-            android:id="@+id/credit_tv"
+        <EditText
+            android:id="@+id/company_income_et"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
+            android:textCursorDrawable="@null"
+            android:background="@null"
             android:layout_centerHorizontal="true"
             android:textSize="@dimen/secondLevleItemSize"
             android:textColor="@color/colorSecondItem"/>
@@ -248,13 +252,13 @@
         android:layout_height="1dp"
         android:background="@color/colorLine"/>
     <RelativeLayout
-
+        android:id="@+id/company_debt_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
 
         <TextView
-
+            android:id="@+id/company_debt_tv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -285,14 +289,15 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/colorLine"/>
-    <RelativeLayout
 
+    <RelativeLayout
+        android:id="@+id/company_duration_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
 
         <TextView
-
+            android:id="@+id/company_duration_tv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -319,6 +324,7 @@
             android:layout_alignParentStart="true"
             android:layout_marginStart="22dp" />
     </RelativeLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
@@ -328,7 +334,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"/>
     <Button
-        android:id="@+id/next_bt"
+        android:id="@+id/next_btn"
         android:layout_width="match_parent"
         android:layout_height="@dimen/buttonHeight"
         android:layout_marginRight="85dp"

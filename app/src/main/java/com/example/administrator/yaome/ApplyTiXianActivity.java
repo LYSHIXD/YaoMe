@@ -1,6 +1,5 @@
 package com.example.administrator.yaome;
 
-import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -51,7 +50,7 @@ public class ApplyTiXianActivity extends AppCompatActivity {
     private void initPopupWindow(){
 
 
-        View popupWindowView=getLayoutInflater().inflate(R.layout.password_layout,null);
+        View popupWindowView=getLayoutInflater().inflate(R.layout.popupwindow_input_password_layout,null);
         //窗口的大小
         //设置后窗口组件无法获取焦点 比如无法输入文字
         //popupWindow=new PopupWindow(popupWindowView,600,300);
