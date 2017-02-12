@@ -5,10 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 public class ApplyProgressActivity extends AppCompatActivity implements View.OnClickListener{
 
+    private ImageView back_iv;
 
     //按钮点击区域，用于改变背景
     private LinearLayout all_ll,audit_ll,finish_ll;
@@ -28,12 +30,18 @@ public class ApplyProgressActivity extends AppCompatActivity implements View.OnC
         audit_bt=(Button)this.findViewById(R.id.audit_bt);
         finish_bt=(Button)this.findViewById(R.id.finish_bt);
 
+        back_iv=(ImageView)this.findViewById(R.id.back_iv);
+
         all_bt.setOnClickListener(this);
         audit_bt.setOnClickListener(this);
         finish_bt.setOnClickListener(this);
+        back_iv.setOnClickListener(this);
+
+
 
     }
 
+    //切换背景颜色和字体颜色
     @Override
     public void onClick(View view) {
         switch (view.getId()){
@@ -60,6 +68,10 @@ public class ApplyProgressActivity extends AppCompatActivity implements View.OnC
                 audit_bt.setTextColor(getResources().getColor(R.color.blackText));
                 finish_ll.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.yellowText)));
                 finish_bt.setTextColor(getResources().getColor(R.color.yellowText));
+                break;
+
+            case R.id.back_iv:
+                finish();
                 break;
         }
     }

@@ -13,6 +13,7 @@
         android:layout_height="@dimen/titleWidgetHeight"
         android:background="#fff">
         <ImageView
+            android:id="@+id/back_iv"
             android:layout_width="@dimen/iconBackWidth"
             android:layout_height="match_parent"
             android:src="@mipmap/ic_arrow_back"

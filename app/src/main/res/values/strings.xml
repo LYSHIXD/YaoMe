@@ -2,7 +2,8 @@
     <string name="app_name">YaoMe</string>
     <string name="login">登录</string>
     <string name="forgetPsw">忘记密码</string>
-    <string name="findPsw">找回密码</string>
+    <string name="changeDealPsw">修改交易密码</string>
+    <string name="changeLoginPsw">修改登录密码</string>
     <string-array name="yes_no">
         <item>是</item>
         <item>否</item>
@@ -10,10 +11,10 @@
 
     <!--企业状态-->
     <string-array name="companyNow">
-    <item>在业</item>
-    <item>存续</item>
-    <item>吊销</item>
-    <item>注销</item>
+        <item>在业</item>
+        <item>存续</item>
+        <item>吊销</item>
+        <item>注销</item>
     </string-array>
 
     <!--车辆用途-->

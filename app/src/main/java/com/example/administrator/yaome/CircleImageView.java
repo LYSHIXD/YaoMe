@@ -1,5 +1,6 @@
 package com.example.administrator.yaome;
 
+
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
@@ -20,8 +21,6 @@ import android.support.annotation.ColorRes;
 import android.support.annotation.DrawableRes;
 import android.util.AttributeSet;
 import android.widget.ImageView;
-
-import com.example.administrator.yaome.R;
 
 /**显示圆形图片（头像）的ImageView，使用方法：xml中代替ImageView
  * Created by Administrator on 2016/2/15.
@@ -63,6 +62,7 @@ public class CircleImageView extends ImageView {
     private boolean mSetupPending;
     private boolean mBorderOverlay;
 
+
     public CircleImageView(Context context) {
         super(context);
 
@@ -75,6 +75,7 @@ public class CircleImageView extends ImageView {
 
     public CircleImageView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
+
 
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CircleImageView, defStyle, 0);
 

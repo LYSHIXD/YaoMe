@@ -5,13 +5,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#eee"
-    tools:context="com.example.administrator.yaome.SetActivity">
+    tools:context="com.example.administrator.yaome.SettingsActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/titleWidgetHeight"
         android:background="#fff">
         <ImageView
+            android:id="@+id/back_iv"
             android:layout_width="@dimen/iconBackWidth"
             android:layout_height="match_parent"
             android:src="@mipmap/ic_arrow_back"
@@ -41,7 +42,6 @@
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="当前版本"
@@ -50,7 +50,7 @@
             android:textColor="@color/colorStairItem"
             android:layout_marginLeft="24dp" />
         <TextView
-
+            android:id="@+id/version_tv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -65,7 +65,7 @@
         android:layout_height="1dp"
         android:background="@color/colorLine"/>
     <RelativeLayout
-
+        android:id="@+id/versionUpdate_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
@@ -73,7 +73,7 @@
 
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="版本更新"
+            android:text="检查更新"
             android:gravity="center"
             android:textSize="@dimen/stairItemSize"
             android:textColor="@color/colorStairItem"
@@ -89,6 +89,7 @@
         android:background="@color/colorLine"
         android:layout_marginTop="20dp"/>
     <RelativeLayout
+        android:id="@+id/service_contract_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
@@ -117,6 +118,7 @@
         android:background="@color/colorLine"
         android:layout_marginTop="20dp"/>
     <RelativeLayout
+        android:id="@+id/clean_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
@@ -145,6 +147,7 @@
         android:background="@color/colorLine"
         android:layout_marginTop="20dp"/>
     <RelativeLayout
+        android:id="@+id/changeLoginPsw_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
@@ -173,6 +176,7 @@
         android:background="@color/colorLine"
         android:layout_marginTop="20dp"/>
     <RelativeLayout
+        android:id="@+id/changeDealPsw_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
@@ -199,8 +203,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"/>
+
     <Button
-        android:id="@+id/next_bt"
+        android:id="@+id/exitLogin_btn"
         android:layout_width="match_parent"
         android:layout_height="@dimen/buttonHeight"
         android:layout_marginRight="85dp"
@@ -210,7 +215,6 @@
         android:textColor="#fff"
         android:textSize="30sp"
         android:background="@drawable/button_red_shape"/>
-
 
 
 </LinearLayout>

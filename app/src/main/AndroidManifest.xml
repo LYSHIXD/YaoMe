@@ -8,35 +8,77 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
-            android:name=".MainActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".FindPswActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".SubmitSuccessActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".ApplyForActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".PersonalInfoActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".PersonalAssetInfoActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".ApplyProgressActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".TiXianInfoActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".SubmitActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".IdCardInfoActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".ApplyTiXianActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".CompanyInfoActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".CompanyAssetInfoActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".CompanyPhotoActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".HouseInfoActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".CarInfoActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".HousePhotoActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".CarPhotoActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".SetActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
-        <activity android:name=".WalletActivity" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".ChangeDealPswActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".SubmitSuccessActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".ApplyForActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".PersonalInfoActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".PersonalAssetInfoActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".ApplyProgressActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".TiXianInfoActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".SubmitActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".IdCardInfoActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".ApplyTiXianActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".CompanyInfoActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".CompanyAssetInfoActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".CompanyPhotoActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".HouseInfoActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".CarInfoActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".HousePhotoActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".CarPhotoActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".WalletActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".ChangeLoginPswActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
     </application>
 
 </manifest>
