@@ -59,10 +59,45 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <View
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:background="#000"/>
+                android:layout_height="300dp">
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/vp"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="#000"/>
+                <ImageView
+                    android:id="@+id/dot_iv2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/icon_u"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="30dp"/>
+                <ImageView
+                    android:id="@+id/dot_iv3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/icon_u"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="30dp"
+                    android:layout_toRightOf="@+id/dot_iv2"
+                    android:layout_marginLeft="20dp"/>
+                <ImageView
+                    android:id="@+id/dot_iv1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@mipmap/icon_u"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="30dp"
+                    android:layout_toLeftOf="@+id/dot_iv2"
+                    android:layout_marginRight="20dp"
+                    />
+            </RelativeLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

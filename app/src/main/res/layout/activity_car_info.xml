@@ -123,7 +123,8 @@
             android:layout_marginStart="22dp" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:id="@+id/car_brand_et"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
             android:textSize="@dimen/secondLevleItemSize"
@@ -131,8 +132,7 @@
             android:textCursorDrawable="@null"
             android:background="@null"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:id="@+id/editText" />
+            android:layout_centerHorizontal="true" />
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
@@ -140,7 +140,7 @@
         android:background="@color/colorLine"/>
 
     <RelativeLayout
-
+        android:id="@+id/car_buy_time_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
@@ -179,14 +179,14 @@
         android:layout_height="1dp"
         android:background="@color/colorLine"/>
     <RelativeLayout
-        android:id="@+id/use_rl"
+        android:id="@+id/car_kilometre_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
 
         <EditText
-
-            android:layout_width="wrap_content"
+            android:id="@+id/car_kilometre_et"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_centerHorizontal="true"
@@ -222,12 +222,11 @@
         android:layout_height="1dp"
         android:background="@color/colorLine"/>
     <RelativeLayout
-        android:id="@+id/fund_rl"
+        android:id="@+id/car_possessor_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
         <TextView
-            android:id="@+id/yongtu"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="车辆所有人"
@@ -236,8 +235,8 @@
             android:textColor="@color/colorStairItem"
             android:layout_marginLeft="24dp" />
         <EditText
-
-            android:layout_width="wrap_content"
+            android:id="@+id/car_possessor_et"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_centerHorizontal="true"
@@ -252,13 +251,13 @@
         android:background="@color/colorLine"/>
 
     <RelativeLayout
-
+        android:id="@+id/car_use_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
 
         <TextView
-
+            android:id="@+id/car_use_tv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -275,7 +274,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="房屋用途"
+            android:text="车辆用途"
             android:gravity="center"
             android:textSize="@dimen/stairItemSize"
             android:textColor="@color/colorStairItem"
@@ -290,13 +289,13 @@
         android:layout_height="1dp"
         android:background="@color/colorLine"/>
     <RelativeLayout
-
+        android:id="@+id/car_pledge_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
 
         <TextView
-
+            android:id="@+id/car_pledge_tv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -329,6 +328,7 @@
         android:layout_height="1dp"
         android:background="@color/colorLine"/>
     <RelativeLayout
+        android:id="@+id/car_photo_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
@@ -357,7 +357,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"/>
     <Button
-        android:id="@+id/next_bt"
+        android:id="@+id/next_btn"
         android:layout_width="match_parent"
         android:layout_height="@dimen/buttonHeight"
         android:layout_marginRight="85dp"

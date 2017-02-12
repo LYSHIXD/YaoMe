@@ -106,14 +106,13 @@
         android:background="@color/colorLine"/>
 
     <RelativeLayout
-        android:id="@+id/use_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
 
         <EditText
-
-            android:layout_width="wrap_content"
+            android:id="@+id/house_size_et"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_centerHorizontal="true"
@@ -151,7 +150,6 @@
         android:background="@color/colorLine"/>
 
     <RelativeLayout
-        android:id="@+id/social_security_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
@@ -165,12 +163,11 @@
             android:textColor="@color/colorStairItem"
             android:layout_marginLeft="24dp" />
         <EditText
-
-            android:layout_width="wrap_content"
+            android:id="@+id/house_location_et"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center"
             android:layout_toRightOf="@+id/jianzhudi"
-            android:layout_marginLeft="80dp"
+            android:layout_marginLeft="100dp"
             android:hint="号/单元/所在层次/户号"
             android:textColorHint="#999"
             android:textCursorDrawable="@null"
@@ -185,13 +182,12 @@
         android:layout_height="1dp"
         android:background="@color/colorLine"/>
     <RelativeLayout
-
+        android:id="@+id/house_come_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
 
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -224,7 +220,6 @@
         android:layout_height="1dp"
         android:background="@color/colorLine"/>
     <RelativeLayout
-        android:id="@+id/fund_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
@@ -238,8 +233,8 @@
             android:textColor="@color/colorStairItem"
             android:layout_marginLeft="24dp" />
         <EditText
-
-            android:layout_width="wrap_content"
+            android:id="@+id/house_brand_et"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_centerHorizontal="true"
@@ -254,13 +249,13 @@
         android:background="@color/colorLine"/>
 
     <RelativeLayout
-
+        android:id="@+id/house_use_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
 
         <TextView
-
+            android:id="@+id/house_use_tv"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -292,6 +287,7 @@
         android:layout_height="1dp"
         android:background="@color/colorLine"/>
     <RelativeLayout
+        android:id="@+id/house_photo_rl"
         android:layout_width="match_parent"
         android:layout_height="@dimen/itemWidgetHeight"
         android:background="#fff">
@@ -319,8 +315,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"/>
+
     <Button
-        android:id="@+id/next_bt"
+        android:id="@+id/next_btn"
         android:layout_width="match_parent"
         android:layout_height="@dimen/buttonHeight"
         android:layout_marginRight="85dp"

@@ -16,6 +16,28 @@
     <item>注销</item>
     </string-array>
 
+    <!--车辆用途-->
+    <string-array name="carUse">
+        <item>家用轿车</item>
+        <item>载客车</item>
+        <item>货车</item>
+        <item>特种用途的汽车</item>
+    </string-array>
+
+    <!--房屋用途-->
+    <string-array name="houseUse">
+        <item>居住房地产</item>
+        <item>商业房地产</item>
+        <item>旅游房地产工业房地产</item>
+        <item>农业房地产</item>
+    </string-array>
+
+    <!--车辆抵押方式-->
+    <string-array name="carPledge">
+        <item>抵押</item>
+        <item>质押</item>
+    </string-array>
+
 
     <!--信用情况-->
     <string-array name="creditInfo">
