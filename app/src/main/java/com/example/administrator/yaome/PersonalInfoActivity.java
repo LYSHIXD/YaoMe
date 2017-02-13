@@ -78,7 +78,7 @@ public class PersonalInfoActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //跳转到身份证上传界面
-                Intent intent=new Intent(PersonalInfoActivity.this,IdCardInfoActivity.class);
+                Intent intent=new Intent(PersonalInfoActivity.this,IdCardPhotoActivity.class);
                 startActivity(intent);
             }
         });

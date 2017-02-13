@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         vp.setCurrentItem(0);
 
-        ImageChange.Change(this,vp,dot_iv1,dot_iv2,dot_iv3,4000);
+        ImageChange.Change(vp,dot_iv1,dot_iv2,dot_iv3,4000);
 
 
     }

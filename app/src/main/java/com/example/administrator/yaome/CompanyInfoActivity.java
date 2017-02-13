@@ -100,7 +100,7 @@ public class CompanyInfoActivity extends AppCompatActivity implements View.OnCli
                 startActivity(intent);
                 break;
             case R.id.idCard_photo_rl:
-                intent=new Intent(CompanyInfoActivity.this,IdCardInfoActivity.class);
+                intent=new Intent(CompanyInfoActivity.this,IdCardPhotoActivity.class);
                 startActivity(intent);
                 break;
             case R.id.back_iv:

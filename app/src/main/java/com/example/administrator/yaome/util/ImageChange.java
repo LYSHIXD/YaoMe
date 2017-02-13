@@ -19,7 +19,7 @@ public class ImageChange extends Handler{
 
 
 
-    public static void Change(final Context context, final ViewPager vp, final ImageView iv1, final ImageView iv2, final ImageView iv3, final long time){
+    public static void Change(final ViewPager vp, final ImageView iv1, final ImageView iv2, final ImageView iv3, final long time){
 
 
         vp.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {

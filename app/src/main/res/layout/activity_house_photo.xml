@@ -12,6 +12,7 @@
         android:layout_height="@dimen/titleWidgetHeight"
         android:background="#fff">
         <ImageView
+            android:id="@+id/back_iv"
             android:layout_width="@dimen/iconBackWidth"
             android:layout_height="match_parent"
             android:src="@mipmap/ic_arrow_back"
@@ -36,6 +37,7 @@
         android:layout_marginRight="100dp"
         android:layout_marginTop="65dp"
         android:background="#ccc">
+
         <ImageView
             android:layout_width="150dp"
             android:layout_height="70dp"
@@ -50,9 +52,10 @@
             android:layout_marginTop="80dp"
             android:text="房屋外观"/>
         <ImageView
+            android:id="@+id/house_appearance_iv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            />
+            android:scaleType="fitXY"/>
     </FrameLayout>
     <FrameLayout
         android:layout_width="match_parent"
@@ -61,6 +64,7 @@
         android:layout_marginRight="100dp"
         android:layout_marginTop="50dp"
         android:background="#ccc">
+
         <ImageView
             android:layout_width="150dp"
             android:layout_height="70dp"
@@ -75,11 +79,13 @@
             android:layout_marginTop="80dp"
             android:text="房屋内饰"/>
         <ImageView
+            android:id="@+id/house_interior_iv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            />
+            android:scaleType="fitXY"/>
     </FrameLayout>
     <Button
+        android:id="@+id/save_btn"
         android:layout_width="match_parent"
         android:layout_height="@dimen/buttonHeight"
         android:layout_marginRight="85dp"

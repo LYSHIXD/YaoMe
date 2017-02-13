@@ -191,6 +191,7 @@
             android:gravity="center"
             android:layout_centerHorizontal="true"
             android:textSize="@dimen/secondLevleItemSize"
+            android:inputType="number"
             android:textColor="@color/colorSecondItem"
             android:textCursorDrawable="@null"
             android:background="@null" />

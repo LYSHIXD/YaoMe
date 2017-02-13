@@ -74,6 +74,7 @@ public class HouseInfoActivity extends AppCompatActivity implements View.OnClick
     private String [] strings;
     private ListView listView;
 
+    //房屋用途弹窗
     private void initPopupwindow(){
         View popupwindowView=getLayoutInflater().inflate(R.layout.popupwindow_listview,null);
         popupWindow=new PopupWindow(popupwindowView, ActionBar.LayoutParams.MATCH_PARENT,ActionBar.LayoutParams.WRAP_CONTENT,true);
@@ -134,10 +135,10 @@ public class HouseInfoActivity extends AppCompatActivity implements View.OnClick
             case R.id.house_come_rl:
 
                 break;
-            case R.id.car_use_rl:
+            case R.id.house_use_rl:
                 initPopupwindow();
                 break;
-            case R.id.car_photo_rl:
+            case R.id.house_photo_rl:
                 intent=new Intent(this,HousePhotoActivity.class);
                 startActivity(intent);
                 break;
